@@ -34,9 +34,8 @@ while True:
         if not acesso_permitido:
             break
 
-    While True:
-
-    opção = int(input("Escolha uma opção:?\n"))
+    while True:
+    opcaoput("Escolha uma opção:?\n")
     "1- Ver saldo.\n"\
     "2- Sacar valor.\n"\
     "3- Depositar.\n"\
@@ -54,7 +53,8 @@ if valor_a_sacar <= (saldo_atual + limite_saldo_negativo):
 else:
         print("Saldo insufuciente!")
 
-    elif opção =='3':
+     elif opção =='3':
+
 depositar = float(input("insira o valor a ser depositado: "))
     
 if depositar > 0:
@@ -62,9 +62,22 @@ if depositar > 0:
     else:
         print("Valor invalido!")
     elif opção =='4':
-        pass
+boleto = float(input("Insira o valor do boleto: "))
+if bole < (saldo_atual + limite_saldo_negativo):
+            saldo -= boleto
+        else:
+            print("Saldo insufuciente")
+
     elif opção =='5':
-        pass
+        senha_antiga = input ("Digite sua senha antiga: ")
+        senha_nova1 = input ("Digite sua senha nova: ")
+        senha_nova02 = input("Repta sua senha nova: ")
+        if senha_antiga == senha_usuario and senha_nova01 == senha_nova2:
+            senha_usuario = senha_nova01
+            print("Senha atualizada com sucesso!")
+        else:
+       print("Senha invalidá")
+
     elif opção =='6':
         print("Atendimento Finalizado")
         break
