@@ -13,10 +13,9 @@ while True:
     
     if idade <= 0 or idade >= 200:
         print("Digite uma idade válida!")
-        continue #não está funcioonando para solicitar novamente a idade dentr d loop
+        continue
     
     if idade >= 18:
         print(f"Parabéns {nome}, Você é maior de idade! ")
     else:
         print(f"Desculpe {nome}, Você não é  maior de idade! ")
-    break
