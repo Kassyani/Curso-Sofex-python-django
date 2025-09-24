@@ -1,3 +1,4 @@
+
 #Repete a mesagem 4 vezes a pergunta/verificação de true doo while começa verificando coontador 0-3
 #While True verifica até ficar False, colocar contador que e a condicionante para False
 '''contador = 0

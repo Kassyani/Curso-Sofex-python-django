@@ -1,0 +1,7 @@
+'''Removendo Todas as Ocorrências
+Crie um programa que remova todas as ocorrências de um item específico de uma lista. Se o
+item não existir, nada acontece.
+● Entrada: Uma lista de elementos e o item a ser removido.
+● Saída: A lista original, mas sem o item especificado.
+Exemplo: numeros = [1, 5, 2, 5, 3, 5] item_a_remover = 5
+Resultado Esperado: [1, 2, 3]'''
