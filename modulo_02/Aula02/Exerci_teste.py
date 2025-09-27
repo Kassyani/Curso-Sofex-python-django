@@ -1,6 +1,6 @@
-frutas= {
-    'Uva': 'R$ 7,00/kg',
-    'Maçã': 'R$8,00/kg',
-    'Banana': 'R$15,99'
-}
-print(frutas)
+dados_usuario = {
+    'nome': 'Kassyani', 
+    'idade':'24 anos', 
+    'cidade':'Maricá'}
+for dado in dados_usuario:
+    print(f'As informações que eu tenho são:{dado}')
