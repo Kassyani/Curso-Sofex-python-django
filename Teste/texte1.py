@@ -1,4 +1,4 @@
-from teste import caixa,Inseto
+from Teste.teste import caixa,Inseto
 
 caixa1 = caixa("quadrado", "branco", 100,5,"lisa")
 
